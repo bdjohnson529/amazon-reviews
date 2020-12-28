@@ -2,6 +2,12 @@
 
 This repository analyzes amazon reviews datasets using natural language processing techniques.
 
+## Contributing
+To save new requirements:
+```
+conda export > environment.yml
+```
+
 ## Data
 The datasets are [published by Amazon](https://s3.amazonaws.com/amazon-reviews-pds/readme.html).
 
