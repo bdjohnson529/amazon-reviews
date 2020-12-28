@@ -28,6 +28,7 @@ dependencies:
   - ipykernel=5.4.2=py39he1a07ef_0
   - ipython=7.19.0=py39h832f523_0
   - ipython_genutils=0.2.0=py_1
+  - ipywidgets=7.6.2=pyhd3deb0d_0
   - jedi=0.18.0=py39hcbf5309_0
   - jinja2=2.11.2=pyh9f0ad1d_0
   - json5=0.9.5=pyh9f0ad1d_0
@@ -38,6 +39,7 @@ dependencies:
   - jupyterlab=3.0.0=pyhd8ed1ab_0
   - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
   - jupyterlab_server=2.0.0=pyhd8ed1ab_0
+  - jupyterlab_widgets=1.0.0=pyhd8ed1ab_0
   - libsodium=1.0.18=h8d14728_1
   - m2w64-gcc-libgfortran=5.3.0=6
   - m2w64-gcc-libs=5.3.0=7
@@ -92,6 +94,7 @@ dependencies:
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - webencodings=0.5.1=py_1
   - wheel=0.36.2=pyhd3eb1b0_0
+  - widgetsnbextension=3.5.1=py39hcbf5309_4
   - win_inet_pton=1.1.0=py39hde42818_1
   - wincertstore=0.2=py39h2bbff1b_0
   - winpty=0.4.3=4
@@ -99,15 +102,26 @@ dependencies:
   - zipp=3.4.0=py_0
   - zlib=1.2.11=h62dcd97_4
   - pip:
+    - blis==0.7.4
+    - catalogue==1.0.0
     - click==7.1.2
+    - cymem==2.0.5
+    - en-core-web-sm==2.3.1
     - filelock==3.0.12
     - joblib==1.0.0
+    - murmurhash==1.0.5
     - numpy==1.19.4
     - pandas==1.1.5
+    - plac==1.1.3
+    - preshed==3.0.5
     - regex==2020.11.13
     - sacremoses==0.0.43
+    - spacy==2.3.5
+    - srsly==1.0.5
+    - thinc==7.4.5
     - tokenizers==0.9.4
     - tqdm==4.55.0
     - transformers==4.1.1
+    - wasabi==0.8.0
 prefix: C:\Users\bdjoh\.conda\envs\amazonreviews
 

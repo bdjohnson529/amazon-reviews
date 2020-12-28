@@ -5,7 +5,7 @@ This repository analyzes amazon reviews datasets using natural language processi
 ## Contributing
 To save new requirements:
 ```
-conda export > environment.yml
+conda env export > environment.yml
 ```
 
 ## Data

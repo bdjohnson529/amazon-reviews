@@ -3,3 +3,6 @@
 call conda remove -y -n amazonreviews --all
 call conda env create -f environment.yml
 call conda activate amazonreviews
+
+:: download packages
+call python -m spacy download en
