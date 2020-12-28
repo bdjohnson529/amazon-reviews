@@ -23,6 +23,7 @@ def ConstructInvertedIndex(series):
         # catch invalid inputs
         if type(text) is not str:
             continue
+            
         # convert text to term frequencies
         tokens = tokenizer.tokenize(text)
         terms = collections.Counter(tokens)
